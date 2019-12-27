@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+#first-view {
+  font-weight: 700;
+  overflow: hidden;
+  height: 98vh;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-image: url(01.jpg);
+  background-size: cover;
+  background-position: 100%;
+}
+
+#first-view #reception-message {
+  position: absolute;
+  display: block;
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#first-view h1 {
+  font-size: 100px;
+}
+
+#first-view p {
+  font-size: 50px;
+}
+
+#first-view button {
+  background-color: #f4ff44;
+  max-width: 100%;
+  font-size: 150px;
+  border-bottom: solid 6px #ff8c00;
+  border-radius: 40px;
+}
