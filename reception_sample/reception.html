@@ -5,17 +5,17 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="user-scalable=no">
   <link rel="stylesheet" href="reception.css">
-  <title>IT事業部受付</title>
+  <title>受付</title>
 </head>
 <section id="first-view">
   <div id="reception-message">
-    <h1>新洗組　IT事業部</h1>
-    <p>2階IT事業部にご用の方は<br>下の受付ボタンをタップして<br>お待ちください</p>
+    <h1>受付</h1>
+    <p>ご用の方は<br>下の受付ボタンをタップして<br>お待ちください</p>
     <button type="button" name="button" onclick="slack()" style="">受付</button>
     <script>
       function slack() {
         let xmlhttp = new XMLHttpRequest();
-        let webhook_url = 'https://hooks.slack.com/services/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';
+        let webhook_url = 'https://hooks.slack.com/services/*******/*********';
         let message = '{"username": "受付" ,"text":"受付でボタンが押されました",  "icon_emoji": ":office:"}';
         xmlhttp.open('POST', webhook_url, false);
         xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
